@@ -4,7 +4,7 @@
 Design and configure a segmented, redundant two-switch corporate LAN featuring multiple VLANs, 802.1Q trunking, LACP link aggregation, Rapid PVST+ Root Bridge optimization, Layer 2 edge protection, and Inter-VLAN routing via Router-on-a-Stick (ROAS).
 
 ## Topology
-![Lab 01 Topology](./topology.png)
+![Lab 01 Topology]("C:\Users\matti\Pictures\Screenshots\topology.png")
 
 ## Addressing & VLAN Table
 
