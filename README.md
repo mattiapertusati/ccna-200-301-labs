@@ -6,7 +6,7 @@ A structured collection of Cisco Packet Tracer laboratories, router/switch confi
 
 | Module | Topic | Key Technologies | Status |
 | :--- | :--- | :--- | :---: |
-| [`01-Switching-VLAN-STP-EtherChannel`](./01-Switching-VLAN-STP-EtherChannel) | Layer 2 Switching | VLANs, 802.1Q Trunking, ROAS, RSTP, LACP | 🚧 Planned |
+| [`01-Switching-VLAN-STP-EtherChannel`](./01-Switching-VLAN-STP-EtherChannel) | Layer 2 Switching | VLANs, 802.1Q Trunking, ROAS, RSTP, LACP | ✅ Completed |
 | [`02-Routing-Static-OSPF-EIGRP`](./02-Routing-Static-OSPF-EIGRP) | IP Routing | Static/Floating Routes, OSPFv2, EIGRP | 🚧 Planned |
 | [`03-IPv6-HSRP-ACL`](./03-IPv6-HSRP-ACL) | IPv6, FHRP & Filtering | SLAAC/NDP, HSRPv2, Standard & Extended ACLs | 🚧 Planned |
 | [`04-Services-NAT-DHCP-L2-Security`](./04-Services-NAT-DHCP-L2-Security) | IP Services & L2 Security | NAT/PAT, DHCP, Port Security, DHCP Snooping, DAI | 🚧 Planned |
