@@ -32,3 +32,8 @@ Design and configure a segmented, redundant two-switch corporate LAN featuring m
 - **Issue:** Inter-VLAN communication between PCs worked partially and switches could ping each other on VLAN 99, but `R1` could not reach the switch management SVIs (`192.168.99.2` / `.3`) and `PC1` failed to ping them.
 - **Diagnosis:** Running `show interfaces trunk` on `SW1` revealed that only `Po1` was operating as a trunk, while the uplink to `R1` (`Gig0/1`) was missing. Because Cisco routers do not negotiate DTP, the switch port remained in access mode.
 - **Resolution:** Manually configured `Gig0/1` on `SW1` as an 802.1Q trunk (`switchport mode trunk`, `switchport nonegotiate`, Native VLAN `999`, allowed VLANs `10,20,99,999`). Full end-to-end connectivity to all SVIs was immediately restored.
+
+## Configuration Files
+- [R1 Running Config](./R1_config.txt)
+- [SW1 Running Config](./SW1_config.txt)
+- [SW2 Running Config](./SW2_config.txt)
